@@ -1,7 +1,11 @@
+import logging
+from utilities import custom_logger as cl
 from base.selenium_driver import SeleniumDriver
 
 
 class LoginPage(SeleniumDriver):
+
+    log = cl.customLogger(logging.DEBUG)
 
     def __init__(self, driver):
         super().__init__(driver)
@@ -37,8 +41,17 @@ class LoginPage(SeleniumDriver):
     def clickSiginButton(self):
         self.elementClick(self._login_button, locatorType="xpath")
 
-    def login(self, email, password):
+    def login(self, email="", password=""):
         self.clickSigninLink()
+        self.waitForElement(self._login_button, locatorType="xpath")
         self.enterEmail(email)
         self.enterPassword(password)
         self.clickSiginButton()
+
+    def verifyLoginSuccess(self):
+        result = self.isElementPresent("//span[contains(text(),'Home')]", locatorType="xpath")
+        return result
+
+    def verifyLoginFailed(self):
+        result = self.isElementPresent("//div[@id='error-for-password']", locatorType="xpath")
+        return result

@@ -27,3 +27,14 @@ JavaScript error: , line 0: UnknownError: The operation failed for reasons unrel
 1582540942355	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: https://js.stripe.com/v3/fingerprinted/js/controller-f3c74d1bb967c5deede4b0b489dc72aa.js, line 1: ReferenceError: webpackJsonp is not defined
 1582540962641	Marionette	INFO	Stopped listening on port 34047
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+1582552698571	Marionette	INFO	Stopped listening on port 42565
+1582634180959	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilesgPFaX"
+1582634187440	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1582634188977	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1582634188977	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1582634188978	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1582634188978	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1582634197692	Marionette	INFO	Listening on port 42151
+1582634197763	Marionette	WARN	TLS certificate errors will be ignored for this session
+1582634217563	Marionette	INFO	Stopped listening on port 42151

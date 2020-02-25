@@ -1,23 +1,25 @@
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from pages.home.login_page import LoginPage
+import time
 import unittest
+import pytest
+from pages.home.login_page import LoginPage
 
 
+@pytest.mark.usefixtures("oneTimeSetUp", "setUp")
 class LoginTests(unittest.TestCase):
 
+    @pytest.fixture(autouse=True)
+    def classSetup(self, oneTimeSetUp):
+        self.lp = LoginPage(self.driver)
+
+    @pytest.mark.run(order=2)
     def test_validLogin(self):
-        baseURL = "https://www.linkedin.com/home"
-        driver = webdriver.Chrome()
-        driver.maximize_window()
-        driver.implicitly_wait(3)
-        driver.get(baseURL)
+        self.lp.login("wankhadechetan281@gmail.com", "Chetan@95")
+        time.sleep(3)
+        result = self.lp.verifyLoginSuccess()
+        assert result == True
 
-        lp = LoginPage(driver)
-        lp.login("wankhadechetan281@gmail.com", "Chetan@95")
-
-        userIcon = driver.find_element(By.XPATH, "//span[contains(text(),'Home')]")
-        if userIcon is not None:
-            print("Login Successful")
-        else:
-            print("Login Failed")
+    @pytest.mark.run(order=1)
+    def test_invalidLogin(self):
+        self.lp.login("wankhadechetan281@gmail.com", "chetan@915")
+        result = self.lp.verifyLoginFailed()
+        assert result == True
