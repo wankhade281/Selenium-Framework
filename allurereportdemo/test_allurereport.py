@@ -40,12 +40,6 @@ class TestAllure:
             allure.attach(driver.get_screenshot_as_png(), name="TestLoginScreen", attachment_type=AttachmentType.PNG)
             driver.close()
             assert False
-        # print("Title of a Login Page =-->=-->=-->=-->=-->=-->",driver.title)
-        # if status == True:
-        #     assert True
-        # else:
-        #     assert False
-
     @allure.severity(allure.severity_level.MINOR)
     def test_profile(self):
         pytest.skip("Right Now skipped I will implement later")
@@ -53,3 +47,4 @@ class TestAllure:
 # To run test and save into directory of pycharm reports:--> py.test -s -v --alluredir="/home/admin1/Demo1/PycharmProjects/selenium-framework/allurereportdemo/reports" test_allurereport.py
 # To Generate a report:--> allure serve /home/admin1/Demo1/PycharmProjects/selenium-framework/allurereportdemo/reports
 # To add a path to the system:--> export PATH="/home/admin1/Downloads/allure-commandline-2.13.1/allure-2.13.1/bin/:$PATH"
+# To Send a allure report to others use:--> https://www.netlify.com/

@@ -1,3 +1,8 @@
 .pytest_cache
 venv
 envframework
+%
+npm-debug.log
+geckodriver.log
+logintest.log
+.env

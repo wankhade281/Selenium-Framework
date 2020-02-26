@@ -358,3 +358,99 @@
 02/26/2020 11:08:50 AM - LoginPage - INFO: Clicked on element with locator: //button[@class='btn__primary--large from__button--floating'] locatorType: xpath
 02/26/2020 11:08:56 AM - LoginPage - INFO: Element not found with locator: //span[contains(text(),'Home')] and  locatorType: xpath
 02/26/2020 11:08:56 AM - LoginPage - INFO: Element not found
+02/26/2020 05:13:49 PM - LoginPage - INFO: Element Found with locator: nav__button-secondary and  locatorType: class
+02/26/2020 05:13:50 PM - LoginPage - INFO: Clicked on element with locator: nav__button-secondary locatorType: class
+02/26/2020 05:13:50 PM - LoginPage - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+02/26/2020 05:13:50 PM - LoginPage - INFO: Element appeared on the web page
+02/26/2020 05:13:50 PM - LoginPage - INFO: Element Found with locator: username and  locatorType: id
+02/26/2020 05:13:50 PM - LoginPage - INFO: Sent data on element with locator: username locatorType: id
+02/26/2020 05:13:50 PM - LoginPage - INFO: Element Found with locator: password and  locatorType: id
+02/26/2020 05:13:50 PM - LoginPage - INFO: Sent data on element with locator: password locatorType: id
+02/26/2020 05:13:50 PM - LoginPage - INFO: Element Found with locator: //button[@class='btn__primary--large from__button--floating'] and  locatorType: xpath
+02/26/2020 05:13:50 PM - LoginPage - INFO: Clicked on element with locator: //button[@class='btn__primary--large from__button--floating'] locatorType: xpath
+02/26/2020 05:13:50 PM - LoginPage - INFO: Element Found with locator: //div[@id='error-for-password'] and  locatorType: xpath
+02/26/2020 05:13:50 PM - LoginPage - INFO: Element Found
+02/26/2020 05:13:53 PM - LoginPage - INFO: Element not found with locator: nav__button-secondary and  locatorType: class
+02/26/2020 05:13:53 PM - LoginPage - INFO: Cannot click on the element with locator: nav__button-secondary locatorType: class
+02/26/2020 05:13:53 PM - LoginPage - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+02/26/2020 05:13:53 PM - LoginPage - INFO: Element appeared on the web page
+02/26/2020 05:13:53 PM - LoginPage - INFO: Element Found with locator: username and  locatorType: id
+02/26/2020 05:13:53 PM - LoginPage - INFO: Sent data on element with locator: username locatorType: id
+02/26/2020 05:13:53 PM - LoginPage - INFO: Element Found with locator: password and  locatorType: id
+02/26/2020 05:13:53 PM - LoginPage - INFO: Sent data on element with locator: password locatorType: id
+02/26/2020 05:13:54 PM - LoginPage - INFO: Element Found with locator: //button[@class='btn__primary--large from__button--floating'] and  locatorType: xpath
+02/26/2020 05:13:59 PM - LoginPage - INFO: Clicked on element with locator: //button[@class='btn__primary--large from__button--floating'] locatorType: xpath
+02/26/2020 05:14:02 PM - LoginPage - INFO: Element Found with locator: //span[contains(text(),'Home')] and  locatorType: xpath
+02/26/2020 05:14:02 PM - LoginPage - INFO: Element Found
+02/26/2020 05:38:45 PM - LoginPage - INFO: Element Found with locator: nav__button-secondary and  locatorType: class
+02/26/2020 05:38:50 PM - LoginPage - INFO: Clicked on element with locator: nav__button-secondary locatorType: class
+02/26/2020 05:38:50 PM - LoginPage - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+02/26/2020 05:39:01 PM - LoginPage - INFO: Element not appeared on the web page
+02/26/2020 05:39:04 PM - LoginPage - INFO: Element not found with locator: username and  locatorType: id
+02/26/2020 05:39:04 PM - LoginPage - INFO: Cannot send data on the element with locator: username locatorType: id
+02/26/2020 05:39:07 PM - LoginPage - INFO: Element not found with locator: password and  locatorType: id
+02/26/2020 05:39:07 PM - LoginPage - INFO: Cannot send data on the element with locator: password locatorType: id
+02/26/2020 05:39:10 PM - LoginPage - INFO: Element not found with locator: //button[@class='btn__primary--large from__button--floating'] and  locatorType: xpath
+02/26/2020 05:39:10 PM - LoginPage - INFO: Cannot click on the element with locator: //button[@class='btn__primary--large from__button--floating'] locatorType: xpath
+02/26/2020 05:39:13 PM - LoginPage - INFO: Element not found with locator: //div[@id='error-for-password'] and  locatorType: xpath
+02/26/2020 05:39:13 PM - LoginPage - INFO: Element not found
+02/26/2020 05:39:13 PM - LoginPage - INFO: Element Found with locator: nav__button-secondary and  locatorType: class
+02/26/2020 05:39:13 PM - LoginPage - INFO: Clicked on element with locator: nav__button-secondary locatorType: class
+02/26/2020 05:39:13 PM - LoginPage - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+02/26/2020 05:39:13 PM - LoginPage - INFO: Element appeared on the web page
+02/26/2020 05:39:13 PM - LoginPage - INFO: Element Found with locator: username and  locatorType: id
+02/26/2020 05:39:14 PM - LoginPage - INFO: Sent data on element with locator: username locatorType: id
+02/26/2020 05:39:14 PM - LoginPage - INFO: Element Found with locator: password and  locatorType: id
+02/26/2020 05:39:14 PM - LoginPage - INFO: Sent data on element with locator: password locatorType: id
+02/26/2020 05:39:14 PM - LoginPage - INFO: Element Found with locator: //button[@class='btn__primary--large from__button--floating'] and  locatorType: xpath
+02/26/2020 05:39:30 PM - LoginPage - INFO: Clicked on element with locator: //button[@class='btn__primary--large from__button--floating'] locatorType: xpath
+02/26/2020 05:39:33 PM - LoginPage - INFO: Element Found with locator: //span[contains(text(),'Home')] and  locatorType: xpath
+02/26/2020 05:39:33 PM - LoginPage - INFO: Element Found
+02/26/2020 05:41:23 PM - LoginPage - INFO: Element Found with locator: nav__button-secondary and  locatorType: class
+02/26/2020 05:41:24 PM - LoginPage - INFO: Clicked on element with locator: nav__button-secondary locatorType: class
+02/26/2020 05:41:24 PM - LoginPage - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+02/26/2020 05:41:24 PM - LoginPage - INFO: Element appeared on the web page
+02/26/2020 05:41:24 PM - LoginPage - INFO: Element Found with locator: username and  locatorType: id
+02/26/2020 05:41:24 PM - LoginPage - INFO: Sent data on element with locator: username locatorType: id
+02/26/2020 05:41:24 PM - LoginPage - INFO: Element Found with locator: password and  locatorType: id
+02/26/2020 05:41:24 PM - LoginPage - INFO: Sent data on element with locator: password locatorType: id
+02/26/2020 05:41:24 PM - LoginPage - INFO: Element Found with locator: //button[@class='btn__primary--large from__button--floating'] and  locatorType: xpath
+02/26/2020 05:41:24 PM - LoginPage - INFO: Clicked on element with locator: //button[@class='btn__primary--large from__button--floating'] locatorType: xpath
+02/26/2020 05:41:24 PM - LoginPage - INFO: Element Found with locator: //div[@id='error-for-password'] and  locatorType: xpath
+02/26/2020 05:41:24 PM - LoginPage - INFO: Element Found
+02/26/2020 05:41:27 PM - LoginPage - INFO: Element not found with locator: nav__button-secondary and  locatorType: class
+02/26/2020 05:41:27 PM - LoginPage - INFO: Cannot click on the element with locator: nav__button-secondary locatorType: class
+02/26/2020 05:41:27 PM - LoginPage - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+02/26/2020 05:41:27 PM - LoginPage - INFO: Element appeared on the web page
+02/26/2020 05:41:27 PM - LoginPage - INFO: Element Found with locator: username and  locatorType: id
+02/26/2020 05:41:27 PM - LoginPage - INFO: Sent data on element with locator: username locatorType: id
+02/26/2020 05:41:27 PM - LoginPage - INFO: Element Found with locator: password and  locatorType: id
+02/26/2020 05:41:27 PM - LoginPage - INFO: Sent data on element with locator: password locatorType: id
+02/26/2020 05:41:27 PM - LoginPage - INFO: Element Found with locator: //button[@class='btn__primary--large from__button--floating'] and  locatorType: xpath
+02/26/2020 05:41:33 PM - LoginPage - INFO: Clicked on element with locator: //button[@class='btn__primary--large from__button--floating'] locatorType: xpath
+02/26/2020 05:41:36 PM - LoginPage - INFO: Element Found with locator: //span[contains(text(),'Home')] and  locatorType: xpath
+02/26/2020 05:41:36 PM - LoginPage - INFO: Element Found
+02/26/2020 05:45:29 PM - LoginPage - INFO: Element Found with locator: nav__button-secondary and  locatorType: class
+02/26/2020 05:45:30 PM - LoginPage - INFO: Clicked on element with locator: nav__button-secondary locatorType: class
+02/26/2020 05:45:30 PM - LoginPage - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+02/26/2020 05:45:30 PM - LoginPage - INFO: Element appeared on the web page
+02/26/2020 05:45:30 PM - LoginPage - INFO: Element Found with locator: username and  locatorType: id
+02/26/2020 05:45:30 PM - LoginPage - INFO: Sent data on element with locator: username locatorType: id
+02/26/2020 05:45:30 PM - LoginPage - INFO: Element Found with locator: password and  locatorType: id
+02/26/2020 05:45:30 PM - LoginPage - INFO: Sent data on element with locator: password locatorType: id
+02/26/2020 05:45:30 PM - LoginPage - INFO: Element Found with locator: //button[@class='btn__primary--large from__button--floating'] and  locatorType: xpath
+02/26/2020 05:45:30 PM - LoginPage - INFO: Clicked on element with locator: //button[@class='btn__primary--large from__button--floating'] locatorType: xpath
+02/26/2020 05:45:30 PM - LoginPage - INFO: Element Found with locator: //div[@id='error-for-password'] and  locatorType: xpath
+02/26/2020 05:45:30 PM - LoginPage - INFO: Element Found
+02/26/2020 05:45:33 PM - LoginPage - INFO: Element not found with locator: nav__button-secondary and  locatorType: class
+02/26/2020 05:45:33 PM - LoginPage - INFO: Cannot click on the element with locator: nav__button-secondary locatorType: class
+02/26/2020 05:45:33 PM - LoginPage - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+02/26/2020 05:45:33 PM - LoginPage - INFO: Element appeared on the web page
+02/26/2020 05:45:33 PM - LoginPage - INFO: Element Found with locator: username and  locatorType: id
+02/26/2020 05:45:33 PM - LoginPage - INFO: Sent data on element with locator: username locatorType: id
+02/26/2020 05:45:33 PM - LoginPage - INFO: Element Found with locator: password and  locatorType: id
+02/26/2020 05:45:34 PM - LoginPage - INFO: Sent data on element with locator: password locatorType: id
+02/26/2020 05:45:34 PM - LoginPage - INFO: Element Found with locator: //button[@class='btn__primary--large from__button--floating'] and  locatorType: xpath
+02/26/2020 05:45:38 PM - LoginPage - INFO: Clicked on element with locator: //button[@class='btn__primary--large from__button--floating'] locatorType: xpath
+02/26/2020 05:45:41 PM - LoginPage - INFO: Element Found with locator: //span[contains(text(),'Home')] and  locatorType: xpath
+02/26/2020 05:45:41 PM - LoginPage - INFO: Element Found
