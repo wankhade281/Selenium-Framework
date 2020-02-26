@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d5a2541-cb60-4ea4-b145-04bef489496a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/base/webdriverfactory.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utilities/custom_logger.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/admin1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/admin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allurereportdemo/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allurereportdemo/test_allurereport.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/selenium_driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/selenium_driver.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/login_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/home/login_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/home/login_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logintest.log" beforeDir="false" afterPath="$PROJECT_DIR$/logintest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +33,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../fundoo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.login_test">
@@ -104,6 +100,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="311" y="59" width="800" height="684" key="#Log_Highlighting_(ideolog)" timestamp="1582692093709">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="311" y="59" width="800" height="684" key="#Log_Highlighting_(ideolog)/67.27.1299.741@67.27.1299.741" timestamp="1582692093709" />
     <state x="499" y="155" width="424" height="491" key="FileChooserDialogImpl" timestamp="1582627975764">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -124,10 +124,10 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state width="1276" height="172" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1582552688010" />
-    <state x="205" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1582623665188">
+    <state x="205" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1582706262050">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="205" y="31" width="1022" height="737" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1582623665188" />
+    <state x="205" y="31" width="1022" height="737" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1582706262050" />
     <state x="167" y="127" width="1099" height="541" key="dock-window-1" timestamp="1582529272191">
       <screen x="67" y="27" width="1299" height="741" />
     </state>

@@ -38,3 +38,13 @@ JavaScript error: , line 0: AbortError: A request was aborted, for example throu
 1582634197692	Marionette	INFO	Listening on port 42151
 1582634197763	Marionette	WARN	TLS certificate errors will be ignored for this session
 1582634217563	Marionette	INFO	Stopped listening on port 42151
+1582695470072	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileb1svRr"
+1582695475520	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1582695477166	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1582695477167	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1582695477167	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1582695477167	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1582695484959	Marionette	INFO	Listening on port 35651
+1582695485056	Marionette	WARN	TLS certificate errors will be ignored for this session
+1582695500859	Marionette	INFO	Stopped listening on port 35651
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 173: Error: Data is not ready.
