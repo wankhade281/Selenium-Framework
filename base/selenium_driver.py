@@ -1,4 +1,6 @@
 import logging
+import os
+import time
 
 from selenium.webdriver.common.by import By
 from traceback import print_stack
@@ -13,6 +15,32 @@ class SeleniumDriver():
 
     def __init__(self, driver):
         self.driver = driver
+
+    def screenShot(self, resultMessage):
+        """
+           Takes a screenshot of current open web page
+        """
+        fileName = resultMessage + "." + str(round(time.time() * 1000))+".png"
+        screenshotDirectory = "../shreenshots/"
+        relativeFileName = screenshotDirectory + fileName
+        currentDirectory = os.path.dirname(__file__)
+        destinationFile = os.path.join(currentDirectory, relativeFileName)
+        destinationDirectory = os.path.join(currentDirectory, screenshotDirectory)
+        try:
+            if not os.path.exists(destinationDirectory):
+                os.makedirs(destinationDirectory)
+            self.driver.save_screenshot(destinationFile)
+            self.log.info("screenshot save to directory: " + destinationFile)
+        except:
+            self.log.error("### Exception occurred at the time of screenshot capture")
+            # print_stack()
+
+
+
+
+    def getTitle(self):
+        print("Title of the Page",self.driver.title)
+        return self.driver.title
 
     def getByType(self, locatorType):
         locatorType = locatorType.lower()

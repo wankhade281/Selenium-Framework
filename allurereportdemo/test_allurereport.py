@@ -40,6 +40,7 @@ class TestAllure:
             allure.attach(driver.get_screenshot_as_png(), name="TestLoginScreen", attachment_type=AttachmentType.PNG)
             driver.close()
             assert False
+
     @allure.severity(allure.severity_level.MINOR)
     def test_profile(self):
         pytest.skip("Right Now skipped I will implement later")

@@ -16,6 +16,11 @@ class LoginPage(SeleniumDriver):
     _email_field = "username"
     _password_field = "password"
     _login_button = "//button[@class='btn__primary--large from__button--floating']"
+    _register_page = "bth_header heading-font text-left"
+    _User_Name = ""
+    _Password = ""
+    _cnf_Password = ""
+    _date_of_birth = "dob-3473a804-87e4-4c2b-91bd-9d490ff0dc42"
 
     # def getLoginLink(self):
     #     return self.driver.find_element(By.LINK_TEXT, self._login_link)
@@ -35,6 +40,15 @@ class LoginPage(SeleniumDriver):
     def enterEmail(self, email):
         self.sendKeys(email, self._email_field)
 
+    def enterUserName(self, UserName):
+        self.sendKeys(UserName, self._User_Name)
+
+    def enterPwd(self, Password):
+        self.sendKeys(Password, self._Password)
+
+    def enterCnfPwd(self, cnfPwd):
+        self.sendKeys(cnfPwd, self._cnf_Password)
+
     def enterPassword(self, password):
         self.sendKeys(password, self._password_field)
 
@@ -48,6 +62,12 @@ class LoginPage(SeleniumDriver):
         self.enterPassword(password)
         self.clickSiginButton()
 
+    def form_fill(self, UserName="", Pwd="", cnfPwd=""):
+        self.waitForElement(self._register_page, locatorType="class")
+        self.enterUserName(UserName)
+        self.enterPwd(Pwd)
+        self.enterCnfPwd(cnfPwd)
+
     def verifyLoginSuccess(self):
         result = self.isElementPresent("//span[contains(text(),'Home')]", locatorType="xpath")
         return result
@@ -55,3 +75,13 @@ class LoginPage(SeleniumDriver):
     def verifyLoginFailed(self):
         result = self.isElementPresent("//div[@id='error-for-password']", locatorType="xpath")
         return result
+
+    def verifyOnRegisterPage(self):
+        result = self.isElementPresent("bth_header heading-font text-left", locatorType="class")
+        return result
+
+    def verifyTitle(self):
+        if "LinkedIn" in self.getTitle():
+            return True
+        else:
+            return False

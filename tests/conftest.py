@@ -2,6 +2,7 @@ import pytest
 from selenium import webdriver
 from base.webdriverfactory import WebDriverFactory
 
+
 @pytest.yield_fixture()
 def setUp():
     print("Running conftest demo method setUp")
@@ -17,8 +18,9 @@ def setUp():
 
 
 #  used for test_command_line_args.py
-@pytest.yield_fixture(scope="class")  # For particular module(ex test_case_demo1.py) use scope='module' for  particular class use scope='class'
-def oneTimeSetUp(request,browser):
+@pytest.yield_fixture(
+    scope="class")  # For particular module(ex test_case_demo1.py) use scope='module' for  particular class use scope='class'
+def oneTimeSetUp(request, browser):
     print("Running oneTimeSetUp")
     wdf = WebDriverFactory(browser)
     driver = wdf.getWebDriverInstance()
@@ -34,6 +36,18 @@ def oneTimeSetUp(request,browser):
     #     driver.implicitly_wait(3)
     #     driver.get(baseURL)
     #     print("Running Test on Chrome")
+    if request.cls is not None:
+        request.cls.driver = driver
+    yield driver
+    driver.quit()
+    print("Running oneTimeTearDown")
+
+
+@pytest.yield_fixture(scope="class")
+def oneTimeSet(request, browser):
+    print("Running oneTimeSetUp")
+    wdf = WebDriverFactory(browser)
+    driver = wdf.getWebDriver()
     if request.cls is not None:
         request.cls.driver = driver
     yield driver

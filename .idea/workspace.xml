@@ -2,225 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d5a2541-cb60-4ea4-b145-04bef489496a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/requirement.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/appform/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/appform/form_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utilities/test_status.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/admin1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/admin1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/allurereportdemo/test_allurereport.py" beforeDir="false" afterPath="$PROJECT_DIR$/allurereportdemo/test_allurereport.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/selenium_driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/selenium_driver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/webdriverfactory.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/webdriverfactory.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logintest.log" beforeDir="false" afterPath="$PROJECT_DIR$/logintest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/mime" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/uuid" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-js-commons/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-js-commons/.eslintrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-js-commons/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-js-commons/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-js-commons/LICENCE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-js-commons/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-js-commons/beans/attachment.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-js-commons/beans/description.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-js-commons/beans/step.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-js-commons/beans/suite.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-js-commons/beans/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-js-commons/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-js-commons/jasmine.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-js-commons/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-js-commons/runtime.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-js-commons/test/.eslintrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-js-commons/test/helpers/mock-fs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-js-commons/test/index.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-js-commons/test/intergration.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-js-commons/test/runtime.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-js-commons/util.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-js-commons/writer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/file-type/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/file-type/license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/file-type/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/file-type/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/copy-sync.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/copy.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/emptyDir-sync.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/emptyDir.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/ensureDir-sync.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/ensureDir.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/ensureFile-sync.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/ensureFile.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/ensureLink-sync.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/ensureLink.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/ensureSymlink-sync.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/ensureSymlink.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/fs-read-write.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/move-sync.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/move.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/outputFile-sync.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/outputFile.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/outputJson-sync.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/outputJson.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/pathExists-sync.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/pathExists.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/readJson-sync.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/readJson.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/remove-sync.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/remove.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/writeJson-sync.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/docs/writeJson.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/copy-sync/copy-sync.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/copy-sync/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/copy/copy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/copy/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/empty/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/ensure/file.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/ensure/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/ensure/link.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/ensure/symlink-paths.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/ensure/symlink-type.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/ensure/symlink.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/fs/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/json/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/json/jsonfile.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/json/output-json-sync.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/json/output-json.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/mkdirs/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/mkdirs/mkdirs-sync.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/mkdirs/mkdirs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/mkdirs/win32.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/move-sync/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/move/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/output/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/path-exists/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/remove/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/remove/rimraf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/util/buffer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/lib/util/utimes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/graceful-fs/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/graceful-fs/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/graceful-fs/clone.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/graceful-fs/graceful-fs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/graceful-fs/legacy-streams.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/graceful-fs/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/graceful-fs/polyfills.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jasmine-allure-reporter/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jasmine-allure-reporter/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jasmine-allure-reporter/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jasmine-allure-reporter/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jasmine-allure-reporter/src/Jasmine2AllureReporter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/js2xmlparser/CHANGES.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/js2xmlparser/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/js2xmlparser/NOTICE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/js2xmlparser/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/js2xmlparser/lib/main.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/js2xmlparser/lib/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/js2xmlparser/lib/options.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/js2xmlparser/lib/options.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/js2xmlparser/lib/utils.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/js2xmlparser/lib/utils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/js2xmlparser/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jsonfile/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jsonfile/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jsonfile/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jsonfile/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jsonfile/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mime/.eslintrc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mime/.github/ISSUE_TEMPLATE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mime/.github/PULL_REQUEST_TEMPLATE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mime/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mime/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mime/CONTRIBUTING.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mime/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mime/Mime.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mime/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mime/cli.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mime/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mime/lite.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mime/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mime/src/README_js.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mime/src/benchmark.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mime/src/build.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mime/src/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mime/types/other.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mime/types/standard.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/object-assign/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/object-assign/license" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/object-assign/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/object-assign/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/universalify/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/universalify/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/universalify/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/universalify/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uuid/AUTHORS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uuid/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uuid/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uuid/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uuid/bin/uuid" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uuid/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uuid/lib/bytesToUuid.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uuid/lib/md5-browser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uuid/lib/md5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uuid/lib/rng-browser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uuid/lib/rng.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uuid/lib/sha1-browser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uuid/lib/sha1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uuid/lib/v35.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uuid/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uuid/v1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uuid/v3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uuid/v4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/uuid/v5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlcreate/CHANGES.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlcreate/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlcreate/NOTICE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlcreate/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlcreate/lib/escape.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlcreate/lib/escape.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlcreate/lib/main.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlcreate/lib/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlcreate/lib/nodes/XmlAttribute.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlcreate/lib/nodes/XmlAttribute.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlcreate/lib/nodes/XmlAttributeText.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlcreate/lib/nodes/XmlAttributeText.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlcreate/lib/nodes/XmlCdata.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlcreate/lib/nodes/XmlCdata.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlcreate/lib/nodes/XmlCharData.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlcreate/lib/nodes/XmlCharData.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlcreate/lib/nodes/XmlCharRef.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlcreate/lib/nodes/XmlCharRef.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlcreate/lib/nodes/XmlComment.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlcreate/lib/nodes/XmlComment.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlcreate/lib/nodes/XmlDecl.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlcreate/lib/nodes/XmlDecl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlcreate/lib/nodes/XmlDocument.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlcreate/lib/nodes/XmlDocument.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlcreate/lib/nodes/XmlDtd.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlcreate/lib/nodes/XmlDtd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlcreate/lib/nodes/XmlDtdAttlist.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlcreate/lib/nodes/XmlDtdAttlist.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlcreate/lib/nodes/XmlDtdElement.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlcreate/lib/nodes/XmlDtdElement.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlcreate/lib/nodes/XmlDtdEntity.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlcreate/lib/nodes/XmlDtdEntity.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlcreate/lib/nodes/XmlDtdNotation.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlcreate/lib/nodes/XmlDtdNotation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlcreate/lib/nodes/XmlDtdParamEntityRef.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlcreate/lib/nodes/XmlDtdParamEntityRef.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlcreate/lib/nodes/XmlElement.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlcreate/lib/nodes/XmlElement.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlcreate/lib/nodes/XmlEntityRef.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlcreate/lib/nodes/XmlEntityRef.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlcreate/lib/nodes/XmlNode.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlcreate/lib/nodes/XmlNode.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlcreate/lib/nodes/XmlProcInst.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlcreate/lib/nodes/XmlProcInst.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlcreate/lib/options.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlcreate/lib/options.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlcreate/lib/utils.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlcreate/lib/utils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlcreate/lib/validate.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlcreate/lib/validate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlcreate/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/login_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/home/login_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/home/login_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -248,10 +40,52 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../fundoo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../automation" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.login_test">
+  <component name="RunManager" selected="Python.app_form_test">
+    <configuration name="form_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="selenium-framework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/appform" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/appform/form_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="login_page" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="selenium-framework" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pages/home" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pages/home/login_page.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="login_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="selenium-framework" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -296,6 +130,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.app_form_test" />
+        <item itemvalue="Python.login_page" />
         <item itemvalue="Python.login_test" />
         <item itemvalue="Python.selenium_driver" />
       </list>
@@ -319,30 +155,50 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="311" y="59" width="800" height="684" key="#Log_Highlighting_(ideolog)/67.27.1299.741@67.27.1299.741" timestamp="1582692093709" />
-    <state x="499" y="155" width="424" height="491" key="FileChooserDialogImpl" timestamp="1582726434966">
+    <state x="499" y="155" width="424" height="491" key="FileChooserDialogImpl" timestamp="1582863063514">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="499" y="155" width="424" height="491" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1582726434966" />
-    <state width="1276" height="172" key="GridCell.Tab.0.bottom" timestamp="1582552688010">
+    <state x="499" y="155" width="424" height="491" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1582863063514" />
+    <state width="1276" height="172" key="GridCell.Tab.0.bottom" timestamp="1582886944956">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1276" height="172" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1582552688010" />
-    <state width="1276" height="172" key="GridCell.Tab.0.center" timestamp="1582552688010">
+    <state width="1276" height="172" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1582886944956" />
+    <state width="1276" height="172" key="GridCell.Tab.0.center" timestamp="1582886944955">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1276" height="172" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1582552688010" />
-    <state width="1276" height="172" key="GridCell.Tab.0.left" timestamp="1582552688009">
+    <state width="1276" height="172" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1582886944955" />
+    <state width="1276" height="172" key="GridCell.Tab.0.left" timestamp="1582886944955">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1276" height="172" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1582552688009" />
-    <state width="1276" height="172" key="GridCell.Tab.0.right" timestamp="1582552688010">
+    <state width="1276" height="172" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1582886944955" />
+    <state width="1276" height="172" key="GridCell.Tab.0.right" timestamp="1582886944955">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1276" height="172" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1582552688010" />
+    <state width="1276" height="172" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1582886944955" />
+    <state width="1276" height="215" key="GridCell.Tab.1.bottom" timestamp="1582873116258">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1276" height="215" key="GridCell.Tab.1.bottom/67.27.1299.741@67.27.1299.741" timestamp="1582873116258" />
+    <state width="1276" height="215" key="GridCell.Tab.1.center" timestamp="1582873116257">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1276" height="215" key="GridCell.Tab.1.center/67.27.1299.741@67.27.1299.741" timestamp="1582873116257" />
+    <state width="1276" height="215" key="GridCell.Tab.1.left" timestamp="1582873116257">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1276" height="215" key="GridCell.Tab.1.left/67.27.1299.741@67.27.1299.741" timestamp="1582873116257" />
+    <state width="1276" height="215" key="GridCell.Tab.1.right" timestamp="1582873116258">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state width="1276" height="215" key="GridCell.Tab.1.right/67.27.1299.741@67.27.1299.741" timestamp="1582873116258" />
     <state x="205" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1582720154558">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="205" y="31" width="1022" height="737" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1582720154558" />
+    <state x="372" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1582862848093">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="372" y="225" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1582862848093" />
     <state x="167" y="127" width="1099" height="541" key="dock-window-1" timestamp="1582529272191">
       <screen x="67" y="27" width="1299" height="741" />
     </state>

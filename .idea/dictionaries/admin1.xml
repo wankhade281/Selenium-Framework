@@ -4,8 +4,10 @@
       <w>allurereportdemo</w>
       <w>asctime</w>
       <w>clickable</w>
+      <w>conftest</w>
       <w>levelname</w>
       <w>logintest</w>
+      <w>pytest</w>
       <w>signin</w>
     </words>
   </dictionary>
