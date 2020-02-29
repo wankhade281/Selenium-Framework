@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d5a2541-cb60-4ea4-b145-04bef489496a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/appform/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/appform/form_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utilities/test_status.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/admin1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/admin1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/allurereportdemo/test_allurereport.py" beforeDir="false" afterPath="$PROJECT_DIR$/allurereportdemo/test_allurereport.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/selenium_driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/selenium_driver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/webdriverfactory.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/webdriverfactory.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logintest.log" beforeDir="false" afterPath="$PROJECT_DIR$/logintest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/login_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/home/login_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/home/login_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,10 +31,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../automation" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.app_form_test">
+  <component name="RunManager" selected="Python.login_test">
     <configuration name="form_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="selenium-framework" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -130,9 +121,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.app_form_test" />
-        <item itemvalue="Python.login_page" />
         <item itemvalue="Python.login_test" />
+        <item itemvalue="Python.login_page" />
         <item itemvalue="Python.selenium_driver" />
       </list>
     </recent_temporary>
@@ -159,38 +149,38 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="499" y="155" width="424" height="491" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1582863063514" />
-    <state width="1276" height="172" key="GridCell.Tab.0.bottom" timestamp="1582886944956">
+    <state width="1276" height="172" key="GridCell.Tab.0.bottom" timestamp="1582983004702">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1276" height="172" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1582886944956" />
-    <state width="1276" height="172" key="GridCell.Tab.0.center" timestamp="1582886944955">
+    <state width="1276" height="172" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1582983004702" />
+    <state width="1276" height="172" key="GridCell.Tab.0.center" timestamp="1582983004701">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1276" height="172" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1582886944955" />
-    <state width="1276" height="172" key="GridCell.Tab.0.left" timestamp="1582886944955">
+    <state width="1276" height="172" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1582983004701" />
+    <state width="1276" height="172" key="GridCell.Tab.0.left" timestamp="1582983004700">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1276" height="172" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1582886944955" />
-    <state width="1276" height="172" key="GridCell.Tab.0.right" timestamp="1582886944955">
+    <state width="1276" height="172" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1582983004700" />
+    <state width="1276" height="172" key="GridCell.Tab.0.right" timestamp="1582983004702">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1276" height="172" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1582886944955" />
-    <state width="1276" height="215" key="GridCell.Tab.1.bottom" timestamp="1582873116258">
+    <state width="1276" height="172" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1582983004702" />
+    <state width="1276" height="215" key="GridCell.Tab.1.bottom" timestamp="1582899762319">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1276" height="215" key="GridCell.Tab.1.bottom/67.27.1299.741@67.27.1299.741" timestamp="1582873116258" />
-    <state width="1276" height="215" key="GridCell.Tab.1.center" timestamp="1582873116257">
+    <state width="1276" height="215" key="GridCell.Tab.1.bottom/67.27.1299.741@67.27.1299.741" timestamp="1582899762319" />
+    <state width="1276" height="215" key="GridCell.Tab.1.center" timestamp="1582899762318">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1276" height="215" key="GridCell.Tab.1.center/67.27.1299.741@67.27.1299.741" timestamp="1582873116257" />
-    <state width="1276" height="215" key="GridCell.Tab.1.left" timestamp="1582873116257">
+    <state width="1276" height="215" key="GridCell.Tab.1.center/67.27.1299.741@67.27.1299.741" timestamp="1582899762318" />
+    <state width="1276" height="215" key="GridCell.Tab.1.left" timestamp="1582899762318">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1276" height="215" key="GridCell.Tab.1.left/67.27.1299.741@67.27.1299.741" timestamp="1582873116257" />
-    <state width="1276" height="215" key="GridCell.Tab.1.right" timestamp="1582873116258">
+    <state width="1276" height="215" key="GridCell.Tab.1.left/67.27.1299.741@67.27.1299.741" timestamp="1582899762318" />
+    <state width="1276" height="215" key="GridCell.Tab.1.right" timestamp="1582899762318">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1276" height="215" key="GridCell.Tab.1.right/67.27.1299.741@67.27.1299.741" timestamp="1582873116258" />
+    <state width="1276" height="215" key="GridCell.Tab.1.right/67.27.1299.741@67.27.1299.741" timestamp="1582899762318" />
     <state x="205" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1582720154558">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -207,5 +197,9 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="167" y="127" width="1099" height="541" key="dock-window-2/67.27.1299.741@67.27.1299.741" timestamp="1582529272191" />
+    <state x="379" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1582899364134">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="379" y="89" width="672" height="678" key="search.everywhere.popup/67.27.1299.741@67.27.1299.741" timestamp="1582899364134" />
   </component>
 </project>

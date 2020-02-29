@@ -16,8 +16,8 @@ class LoginTests(unittest.TestCase):
 
     @pytest.mark.run(order=2)
     def test_validLogin(self):
-        self.lp.login("wankhadechetan281@gmail.com", "chetan@123")
-        # self.lp.login("wankhadechetan281@gmail.com", "Chetan@95")
+        # self.lp.login("wankhadechetan281@gmail.com", "chetan@123")
+        self.lp.login("wankhadechetan281@gmail.com", "Chetan@95")
         time.sleep(3)
         result1 = self.lp.verifyLoginSuccess()
         self.ts.mark(result1, "Login UnSuccessful")

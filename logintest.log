@@ -997,3 +997,57 @@
 02/28/2020 07:44:12 PM - TestStatus - INFO: screenshot save to directory: /home/admin1/Demo1/PycharmProjects/selenium-framework/base/../shreenshots/Login UnSuccessful.1582899252070.png
 02/28/2020 07:44:12 PM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Valid Title
 02/28/2020 07:44:12 PM - TestStatus - INFO: test_validTitle--> --> --> Test Successful
+02/29/2020 09:55:02 AM - LoginPage - INFO: Element not found with locator: nav__button-secondary and  locatorType: class
+02/29/2020 09:55:02 AM - LoginPage - INFO: Cannot click on the element with locator: nav__button-secondary locatorType: class
+02/29/2020 09:55:02 AM - LoginPage - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+02/29/2020 09:55:03 AM - LoginPage - INFO: Element not appeared on the web page
+02/29/2020 09:55:03 AM - LoginPage - INFO: Element not found with locator: username and  locatorType: id
+02/29/2020 09:55:03 AM - LoginPage - INFO: Cannot send data on the element with locator: username locatorType: id
+02/29/2020 09:55:03 AM - LoginPage - INFO: Element not found with locator: password and  locatorType: id
+02/29/2020 09:55:03 AM - LoginPage - INFO: Cannot send data on the element with locator: password locatorType: id
+02/29/2020 09:55:03 AM - LoginPage - INFO: Element not found with locator: //button[@class='btn__primary--large from__button--floating'] and  locatorType: xpath
+02/29/2020 09:55:03 AM - LoginPage - INFO: Cannot click on the element with locator: //button[@class='btn__primary--large from__button--floating'] locatorType: xpath
+02/29/2020 09:55:03 AM - LoginPage - INFO: Element not found with locator: //div[@id='error-for-password'] and  locatorType: xpath
+02/29/2020 09:55:03 AM - LoginPage - INFO: Element not found
+02/29/2020 09:55:03 AM - LoginPage - INFO: Element not found with locator: nav__button-secondary and  locatorType: class
+02/29/2020 09:55:03 AM - LoginPage - INFO: Cannot click on the element with locator: nav__button-secondary locatorType: class
+02/29/2020 09:55:03 AM - LoginPage - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+02/29/2020 09:55:03 AM - LoginPage - INFO: Element not appeared on the web page
+02/29/2020 09:55:03 AM - LoginPage - INFO: Element not found with locator: username and  locatorType: id
+02/29/2020 09:55:03 AM - LoginPage - INFO: Cannot send data on the element with locator: username locatorType: id
+02/29/2020 09:55:03 AM - LoginPage - INFO: Element not found with locator: password and  locatorType: id
+02/29/2020 09:55:03 AM - LoginPage - INFO: Cannot send data on the element with locator: password locatorType: id
+02/29/2020 09:55:03 AM - LoginPage - INFO: Element not found with locator: //button[@class='btn__primary--large from__button--floating'] and  locatorType: xpath
+02/29/2020 09:55:03 AM - LoginPage - INFO: Cannot click on the element with locator: //button[@class='btn__primary--large from__button--floating'] locatorType: xpath
+02/29/2020 09:55:06 AM - LoginPage - INFO: Element not found with locator: //span[contains(text(),'Home')] and  locatorType: xpath
+02/29/2020 09:55:06 AM - LoginPage - INFO: Element not found
+02/29/2020 09:55:06 AM - TestStatus - ERROR: ### VERIFICATION FAILED :: + Login UnSuccessful
+02/29/2020 09:55:06 AM - TestStatus - ERROR: ### Exception occurred at the time of screenshot capture
+02/29/2020 07:00:38 PM - LoginPage - INFO: Element Found with locator: nav__button-secondary and  locatorType: class
+02/29/2020 07:00:39 PM - LoginPage - INFO: Clicked on element with locator: nav__button-secondary locatorType: class
+02/29/2020 07:00:39 PM - LoginPage - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+02/29/2020 07:00:39 PM - LoginPage - INFO: Element appeared on the web page
+02/29/2020 07:00:39 PM - LoginPage - INFO: Element Found with locator: username and  locatorType: id
+02/29/2020 07:00:39 PM - LoginPage - INFO: Sent data on element with locator: username locatorType: id
+02/29/2020 07:00:39 PM - LoginPage - INFO: Element Found with locator: password and  locatorType: id
+02/29/2020 07:00:39 PM - LoginPage - INFO: Sent data on element with locator: password locatorType: id
+02/29/2020 07:00:39 PM - LoginPage - INFO: Element Found with locator: //button[@class='btn__primary--large from__button--floating'] and  locatorType: xpath
+02/29/2020 07:00:39 PM - LoginPage - INFO: Clicked on element with locator: //button[@class='btn__primary--large from__button--floating'] locatorType: xpath
+02/29/2020 07:00:39 PM - LoginPage - INFO: Element Found with locator: //div[@id='error-for-password'] and  locatorType: xpath
+02/29/2020 07:00:39 PM - LoginPage - INFO: Element Found
+02/29/2020 07:00:42 PM - LoginPage - INFO: Element not found with locator: nav__button-secondary and  locatorType: class
+02/29/2020 07:00:42 PM - LoginPage - INFO: Cannot click on the element with locator: nav__button-secondary locatorType: class
+02/29/2020 07:00:42 PM - LoginPage - INFO: Waiting for maximum :: 10 :: seconds for element to be clickable
+02/29/2020 07:00:42 PM - LoginPage - INFO: Element appeared on the web page
+02/29/2020 07:00:42 PM - LoginPage - INFO: Element Found with locator: username and  locatorType: id
+02/29/2020 07:00:42 PM - LoginPage - INFO: Sent data on element with locator: username locatorType: id
+02/29/2020 07:00:42 PM - LoginPage - INFO: Element Found with locator: password and  locatorType: id
+02/29/2020 07:00:42 PM - LoginPage - INFO: Sent data on element with locator: password locatorType: id
+02/29/2020 07:00:42 PM - LoginPage - INFO: Element Found with locator: //button[@class='btn__primary--large from__button--floating'] and  locatorType: xpath
+02/29/2020 07:00:43 PM - LoginPage - INFO: Clicked on element with locator: //button[@class='btn__primary--large from__button--floating'] locatorType: xpath
+02/29/2020 07:00:49 PM - LoginPage - INFO: Element not found with locator: //span[contains(text(),'Home')] and  locatorType: xpath
+02/29/2020 07:00:49 PM - LoginPage - INFO: Element not found
+02/29/2020 07:00:49 PM - TestStatus - ERROR: ### VERIFICATION FAILED :: + Login UnSuccessful
+02/29/2020 07:00:49 PM - TestStatus - INFO: screenshot save to directory: /home/admin1/Demo1/PycharmProjects/selenium-framework/base/../shreenshots/Login UnSuccessful.1582983049248.png
+02/29/2020 07:00:49 PM - TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Valid Title
+02/29/2020 07:00:49 PM - TestStatus - INFO: test_validTitle--> --> --> Test Successful
