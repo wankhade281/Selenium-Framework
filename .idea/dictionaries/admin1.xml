@@ -5,6 +5,7 @@
       <w>asctime</w>
       <w>clickable</w>
       <w>conftest</w>
+      <w>envframework</w>
       <w>levelname</w>
       <w>logintest</w>
       <w>pytest</w>

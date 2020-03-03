@@ -1,10 +1,10 @@
 import logging
 from utilities import custom_logger as cl
-from base.selenium_driver import SeleniumDriver
+from base.basepage import BasePage
+import logging
 
 
-class LoginPage(SeleniumDriver):
-
+class LoginPage(BasePage):
     log = cl.customLogger(logging.DEBUG)
 
     def __init__(self, driver):
@@ -81,7 +81,4 @@ class LoginPage(SeleniumDriver):
         return result
 
     def verifyTitle(self):
-        if "LinkedIn" in self.getTitle():
-            return True
-        else:
-            return False
+        return self.verifyPageTitle("LinkedIn")
