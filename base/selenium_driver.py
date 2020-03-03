@@ -20,7 +20,7 @@ class SeleniumDriver():
         """
            Takes a screenshot of current open web page
         """
-        fileName = resultMessage + "." + str(round(time.time() * 1000))+".png"
+        fileName = resultMessage + "." + str(round(time.time() * 1000)) + ".png"
         screenshotDirectory = "../shreenshots/"
         relativeFileName = screenshotDirectory + fileName
         currentDirectory = os.path.dirname(__file__)
@@ -35,11 +35,8 @@ class SeleniumDriver():
             self.log.error("### Exception occurred at the time of screenshot capture")
             # print_stack()
 
-
-
-
     def getTitle(self):
-        print("Title of the Page",self.driver.title)
+        print("Title of the Page", self.driver.title)
         return self.driver.title
 
     def getByType(self, locatorType):
@@ -103,6 +100,28 @@ class SeleniumDriver():
             self.log.info("Element not found")
             return False
 
+    def isElementDisplayed(self, locator="", locatorType="id", element=None):
+        """
+        NEW METHOD
+        Check if element is displayed
+        Either provide element or a combination of locator and locatorType
+        """
+        isDisplayed = False
+        try:
+            if locator:  # This means if locator is not empty
+                element = self.getElement(locator, locatorType)
+            if element is not None:
+                isDisplayed = element.is_displayed()
+                self.log.info("Element is displayed with locator: " + locator +
+                              " locatorType: " + locatorType)
+            else:
+                self.log.info("Element not displayed with locator: " + locator +
+                              " locatorType: " + locatorType)
+            return isDisplayed
+        except:
+            print("Element not found")
+            return False
+
     def elementPresenceCheck(self, locator, byType):
         try:
             elementList = self.driver.find_elements(byType, locator)
@@ -115,6 +134,18 @@ class SeleniumDriver():
         except:
             self.log.info("Element not found")
             return False
+
+    def webScroll(self, direction="up"):
+        """
+        NEW METHOD
+        """
+        if direction == "up":
+            # Scroll Up
+            self.driver.execute_script("window.scrollBy(0, -1000);")
+
+        if direction == "down":
+            # Scroll Down
+            self.driver.execute_script("window.scrollBy(0, 1000);")
 
     def waitForElement(self, locator, locatorType="id",
                        timeout=10, pollFrequency=0.5):

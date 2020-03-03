@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d5a2541-cb60-4ea4-b145-04bef489496a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/base/basepage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/courses/register_courses_pages.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/courses/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/courses/register_courses_tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utilities/util.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/admin1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/admin1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/selenium-framework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/selenium-framework.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/geckodriver.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logintest.log" beforeDir="false" afterPath="$PROJECT_DIR$/logintest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/login_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirement.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/selenium_driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/selenium_driver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/courses/register_courses_pages.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/courses/register_courses_pages.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
