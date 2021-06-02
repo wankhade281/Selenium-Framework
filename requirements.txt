@@ -20,7 +20,7 @@ selenium==3.141.0
 six==1.14.0
 traceback2==1.4.0
 unittest2==1.1.0
-urllib3==1.25.8
+urllib3==1.26.5
 wcwidth==0.1.8
 zipp==3.0.0
 html-testRunner==1.2.1
